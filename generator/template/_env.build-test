@@ -1,0 +1,2 @@
+VUE_APP_BUILD='production-test'
+NODE_ENV='production'

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>template</title>
+  <script>
+    !window.__HBI__ && (window.__HBI__ = {});
+    __HBI__ = {id: 25};
+    var script = document.createElement('script');
+    script.crossOrigin = 'anonymous';
+    var date = new Date();
+    var now = parseInt(date.getTime() / 1000 / 60);
+    script.src = "//static-jw.msstatic.com/hbi/haiyan.hbi.js?timestamp=" + now;
+    document.head.appendChild(script);
+  </script>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <!--todo 替换你的UD ID-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132217604-xx"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag (){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
+  <!-- End Global Site Tag (gtag.js) - Google Analytics -->
+  <!-- Google Tag Manager -->
+  <!--todo 替换你的GTM-xxxxx-->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-xxxxx");
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<!--todo 替换你的GTM-xxxxx-->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-xxxxxx" />
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
